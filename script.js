@@ -2,8 +2,8 @@ let btn = document.querySelector(".btn");
 
 btn.addEventListener("click", function () {
     let randomNumber = Math.floor(Math.random() * 100);
-    let input1 = document.querySelector("#yourName").value;
-    let input2 = document.querySelector("#loveName").value;
+    let input1 = document.querySelector("#yourName").value.toLowerCase();
+    let input2 = document.querySelector("#loveName").value.toLowerCase();
 
 
     if (input1 == "") {
