@@ -7,9 +7,9 @@ btn.addEventListener("click", function () {
 
 
     if (input1 == "") {
-        alert("type your name")
+        alert("Adını gir")
     } else if (input2 === "") {
-        alert("type your darlings name")
+        alert("Onun adını gir")
     } else if (input1 == "said" && input2 == "alev") {
         document.querySelector("#demo").textContent = "100";
     } else if (input1 == "alev" && input2 == "said") {
