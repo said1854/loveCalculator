@@ -10,9 +10,7 @@ btn.addEventListener("click", function () {
         alert("Adını gir")
     } else if (input2 === "") {
         alert("Onun adını gir")
-    } else if (input1 == "said" && input2 == "alev") {
-        document.querySelector("#demo").textContent = "100";
-    } else if (input1 == "alev" && input2 == "said") {
+    } else if (input1 == "said" || input2 == "said") {
         document.querySelector("#demo").textContent = "100";
     } else if (input1 != "" && input2 != "") {
         console.log(input1);
